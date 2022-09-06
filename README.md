@@ -19,8 +19,10 @@ open **notebook.py** which is a jupyter notebook file (Run this if you have jupy
 - Provide the Credentials, User ID and User Password
 - Provide path to chrome web driver in the path variable
 - Select number of pivots you want. (1 pivot contains 10 pages or 50 x 10 = 500 Drives). Not recommended to go beyond **15**)
+> ![pivot_pages](https://github.com/amol-17/lpu-all-drives-info/blob/master/images/pivot_pages.png) pivot_pages
+> - In above image, if you want the data till 30th page, set pivot_pages to 3, if you want data till 20th page, set it to 2 and so on. *The data will always be scrapped in forms of 10 pages minimum.*
 - Run the saved script or run all jupyter notebook cells
-![this](https://apod.nasa.gov/apod/ap220208.html)
+
 ## THERE WILL BE CONTINUOUS VERY QUICK POP UPS IN CHROME BROWSER, don't worry, the script is doing its job. Best way is to turn off your SCREEN and leave it for 5 minutes or more, depending upon how many pages needed to be scrapped.
 > Please do not interfere browser or press any key while the script is running. The browser will automatically quits after the script has been executed succesfully.
 
